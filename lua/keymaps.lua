@@ -48,4 +48,7 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   end,
 })
 
+-- Exit insert mode with jk
+vim.keymap.set('i', 'JK', '<ESC>', { desc = 'Exit insert mode with JK' })
+
 -- vim: ts=2 sts=2 sw=2 et

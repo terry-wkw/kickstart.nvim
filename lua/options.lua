@@ -57,6 +57,17 @@ vim.opt.inccommand = 'split'
 vim.opt.cursorline = true
 
 -- Minimal number of screen lines to keep above and below the cursor.
-vim.opt.scrolloff = 10
+vim.opt.scrolloff = 15
 
+-- Turn off termguicolors
+vim.opt.termguicolors = true
+vim.opt.background = 'dark'
+
+-- Turn off swapfile
+vim.opt.swapfile = false
+
+-- tabs & indentation
+vim.opt.tabstop = 2 -- 2 spaces for tabs (prettier default)
+vim.opt.shiftwidth = 2 -- 2 spaces for indent width
+vim.opt.expandtab = true -- expand tab to spaces
 -- vim: ts=2 sts=2 sw=2 et
