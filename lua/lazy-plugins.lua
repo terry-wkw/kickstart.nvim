@@ -65,7 +65,7 @@ require('lazy').setup({
   require 'kickstart.plugins.autopairs',
   require 'kickstart.plugins.neo-tree',
 
-  require 'kickstart.plugins.bufferline',
+  -- require 'kickstart.plugins.bufferline',
 
   require 'kickstart.plugins.nvim-tmux-navigator',
 
